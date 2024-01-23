@@ -1,0 +1,29 @@
+.blogs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blogs-box {
+    width: 32%;
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+.blog-date p {
+    line-height: 24px;
+    margin: 12px 0;
+} 
+
+.blog-date h4 {
+    line-height: 30px;
+}
+
+.blog-date a {
+    color: #333;
+    font-weight: 700;
+    text-decoration: none;
+}

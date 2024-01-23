@@ -1,0 +1,26 @@
+.blog-container {
+    text-align: justify;
+}
+
+.blog-container .blog-title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 45px;
+    padding: 12px 0;
+}
+
+.blog-container .blog-date {
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.blog-container .blog-img {
+    text-align: center;
+}
+
+.blog-container .blog-content p {
+    font-size: 1.8rem;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
