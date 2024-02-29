@@ -4,3 +4,54 @@
     line-height: 82px;
     text-align: center;
 }
+
+form {
+    padding: 0 30%;
+}
+
+form label {
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 16px 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 44px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type="submit"] {
+    /* width: 10%; */
+    padding: 9px 21px;
+    background-color: #E8685E;
+    color: white;
+    border: none;
+    border-radius: 56px;
+    cursor: pointer;
+    float: right;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
