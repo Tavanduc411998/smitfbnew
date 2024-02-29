@@ -1,3 +1,19 @@
+/* Common */
+header,
+#banner,
+#about-container,
+#service-container,
+#testimonial-container,
+#team-container,
+#customer-container,
+footer,
+#blogs-container,
+#adscheck-container,
+#blog-container,
+#contact-container {
+    padding: 40px 10%;
+}
+
 /* header */
 
 .navigation-container {

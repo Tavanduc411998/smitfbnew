@@ -1,4 +1,6 @@
 @media (max-width: 600px) {
+
+    /* Header */
     .navigation-container {
         padding: 16px 20px;
     }
@@ -16,5 +18,52 @@
         display: flex;
         justify-content: space-between;
         font-size: 2rem;
+    }
+
+    /* Banner */
+    .banner-box {
+        display: block;
+        text-align: justify;
+    }
+
+    .banner-text-box {
+        width: 100%;
+    }
+
+    .banner-text-box h2 {
+        font-size: 2rem;
+        margin-bottom: 24px;
+        line-height: 24px;
+    }
+
+    .banner-text-box p {
+        font-size: 1.6rem;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .banner-button-box button {
+        border: none;
+        border-radius: 30px;
+        padding: 16px 24px;
+    }
+
+    .download-app {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .download-pc {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .banner-video-box {
+        width: 100%;
+    }
+
+    /* About */
+    .about-container {
+        display: block;
     }
 }

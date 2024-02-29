@@ -40,21 +40,6 @@ p {
     margin: 0;
 }
 
-header,
-#banner,
-#about-container,
-#service-container,
-#testimonial-container,
-#team-container,
-#customer-container,
-footer,
-#blogs-container,
-#adscheck-container,
-#blog-container,
-#contact-container {
-    padding: 40px 10%;
-}
-
 .pt120 {
     padding-top: 120px;
 }
