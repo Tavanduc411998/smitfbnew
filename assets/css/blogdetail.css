@@ -24,3 +24,7 @@
     line-height: 27px;
     margin-bottom: 12px;
 }
+
+.blog-container .blog-img img {
+    width: 100%;
+}

@@ -14,6 +14,10 @@ footer,
     padding: 40px 10%;
 }
 
+.nav-icon {
+    display: none;
+}
+
 /* header */
 
 .navigation-container {
@@ -176,7 +180,6 @@ footer,
 
 .service-item+.service-item {
     border-left: 1px solid #E0E0E0;
-    ;
 }
 
 .service-img img {

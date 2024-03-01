@@ -1,5 +1,21 @@
 @media (max-width: 600px) {
 
+    /* Common */
+    header,
+    #banner,
+    #about-container,
+    #service-container,
+    #testimonial-container,
+    #team-container,
+    #customer-container,
+    footer,
+    #blogs-container,
+    #adscheck-container,
+    #blog-container,
+    #contact-container {
+        padding: 40px 0;
+    }
+
     /* Header */
     .navigation-container {
         padding: 16px 20px;
@@ -50,7 +66,7 @@
 
     .download-app {
         width: 100%;
-        margin-bottom: 12px;
+        margin: 0 0 12px 0;
     }
 
     .download-pc {
@@ -66,4 +82,128 @@
     .about-container {
         display: block;
     }
+
+    .about-text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .about-text h4 {
+        margin-bottom: 10px;
+    }
+
+    .about-text p {
+        text-align: justify;
+        font-size: 1.6rem;
+        line-height: 27px;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    /* Service */
+    .service-container h2 {
+        font-size: 2rem;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .service-box {
+        display: block;
+        padding: 20px 0px;
+        border-radius: 14px;
+    }
+
+    .service-item {
+        width: 100%;
+        padding: 12px 0;
+        height: auto;
+    }
+
+    .service-item+.service-item {
+        border-top: 1px solid #E0E0E0;
+    }
+
+    /* Testimonials */
+    .testimonial-container h2 {
+        font-size: 2rem;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .testimonial-box {
+        display: block;
+        padding: 0;
+    }
+
+    .testimonial-inside {
+        width: 100%;
+        padding: 0 0 20px 0;
+    }
+
+    /* Team */
+    .team-container h2 {
+        font-size: 2rem;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .team-box {
+        display: block;
+    }
+
+    .team-item {
+        width: 100%;
+        background-color: #fff;
+        padding: 30px 20px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* Customer */
+    .customer-container h2 {
+        font-size: 2rem;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    .customer-box {
+        display: block;
+    }
+
+    .customer-item {
+        background-color: #fff;
+        width: 100%;
+        padding: 10px 20px;
+        border-radius: 14px;
+        margin-bottom: 10px;
+    }
+
+    /* Footer */
+    .footer-logo img {
+        width: 100%;
+    }
+
+    .footer-box {
+        display: block;
+    }
+
+    .footer-info {
+        width: 100%;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .footer-navigation {
+        width: 100%;
+    }
+
 }
