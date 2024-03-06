@@ -33,6 +33,10 @@ footer,
     width: 20%;
 }
 
+.nav-img img {
+    width: 30%;
+}
+
 .nav-list {
     width: 40%;
     display: flex;
@@ -243,8 +247,12 @@ footer,
 .testimonial-avatar-box {
     width: 100px;
     height: 100px;
+    /* background-color: #1CA64D; */
+}
+
+.testimonial-avatar-box img {
     border-radius: 50%;
-    background-color: #1CA64D;
+    width: 100%;
 }
 
 .testimonial-item p {
@@ -361,6 +369,10 @@ footer,
 /* Footer */
 .footer-logo {
     margin-bottom: 30px;
+}
+
+.footer-logo img {
+    width: 20%;
 }
 
 .footer-box {

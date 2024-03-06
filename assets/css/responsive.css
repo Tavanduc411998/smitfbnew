@@ -21,6 +21,10 @@
         padding: 16px 20px;
     }
 
+    .nav-img img {
+        width: 70%;
+    }
+
     .nav-list {
         display: none;
     }
