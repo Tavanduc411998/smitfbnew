@@ -148,6 +148,10 @@ footer,
 }
 
 /* Service */
+#slider {
+    display: none;
+}
+
 .service-container {
     text-align: center;
 }

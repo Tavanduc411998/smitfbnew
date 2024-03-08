@@ -114,6 +114,10 @@
     }
 
     /* Service */
+    #slider {
+        display: block;
+    }
+    
     .service-container h2 {
         font-size: 2rem;
         line-height: 28px;
@@ -121,7 +125,7 @@
     }
 
     .service-box {
-        display: block;
+        display: none;
         padding: 20px 0px;
         border-radius: 14px;
     }
