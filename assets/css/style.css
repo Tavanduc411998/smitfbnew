@@ -18,6 +18,10 @@ footer,
     display: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* header */
 
 .navigation-container {
