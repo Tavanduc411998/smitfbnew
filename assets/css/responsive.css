@@ -13,7 +13,7 @@
     #adscheck-container,
     #blog-container,
     #contact-container {
-        padding: 40px 0;
+        padding: 40px 5%;
     }
 
     /* Header */
@@ -44,6 +44,12 @@
     .banner-box {
         display: block;
         text-align: justify;
+    }
+
+    .banner-button-box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .banner-text-box {
